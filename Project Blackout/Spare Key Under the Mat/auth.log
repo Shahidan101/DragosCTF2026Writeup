@@ -1,0 +1,44 @@
+Sep 17 15:32:47 file01 sudo: pam_unix(sudo:session): session closed for user root
+Sep 17 15:39:01 file01 CRON[192223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 17 15:39:01 file01 CRON[192223]: pam_unix(cron:session): session closed for user root
+Sep 17 15:45:00 file01 sshd[192317]: Received disconnect from 203.0.113.50 port 58110:11: Bye Bye [preauth]
+Sep 17 15:45:00 file01 sshd[192317]: Disconnected from authenticating user operator 203.0.113.50 port 58110 [preauth]
+Sep 17 15:45:00 file01 sshd[192321]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:00 file01 sshd[192321]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:00 file01 sshd[192321]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:00 file01 sshd[192319]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:00 file01 sshd[192319]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:00 file01 sshd[192319]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:00 file01 sshd[192322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:00 file01 sshd[192322]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:00 file01 sshd[192322]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:00 file01 sshd[192320]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:00 file01 sshd[192320]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:00 file01 sshd[192320]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:02 file01 sshd[192321]: Failed password for operator from 203.0.113.50 port 58124 ssh2
+Sep 17 15:45:02 file01 sshd[192322]: Failed password for operator from 203.0.113.50 port 58118 ssh2
+Sep 17 15:45:02 file01 sshd[192319]: Failed password for operator from 203.0.113.50 port 58120 ssh2
+Sep 17 15:45:02 file01 sshd[192320]: Failed password for operator from 203.0.113.50 port 58122 ssh2
+Sep 17 15:45:03 file01 sshd[192321]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:03 file01 sshd[192321]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:03 file01 sshd[192319]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:03 file01 sshd[192319]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:03 file01 sshd[192322]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=operator
+Sep 17 15:45:03 file01 sshd[192322]: pam_sss(sshd:auth): received for user operator: 10 (User not known to the underlying authentication module)
+Sep 17 15:45:03 file01 sshd[192320]: Accepted password for operator from 203.0.113.50 port 58122 ssh2
+Sep 17 15:45:03 file01 sshd[192320]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 17 15:45:03 file01 systemd-logind[686]: New session 1684 of user operator.
+Sep 17 15:45:03 file01 systemd: pam_unix(systemd-user:session): session opened for user operator by (uid=0)
+Sep 17 15:45:04 file01 blackout-canary: INTRUSION DETECTED: weak-credential SSH login - user=operator from=203.0.113.50 service=sshd flag=BLACKOUT{s2_weak_creds_pwned}
+Sep 17 15:45:04 file01 sshd[192320]: pam_unix(sshd:session): session closed for user operator
+Sep 17 15:45:04 file01 systemd-logind[686]: Session 1684 logged out. Waiting for processes to exit.
+Sep 17 15:45:04 file01 systemd-logind[686]: Removed session 1684.
+Sep 17 15:45:06 file01 sshd[192321]: Failed password for operator from 203.0.113.50 port 58124 ssh2
+Sep 17 15:45:06 file01 sshd[192319]: Failed password for operator from 203.0.113.50 port 58120 ssh2
+Sep 17 15:45:06 file01 sshd[192322]: Failed password for operator from 203.0.113.50 port 58118 ssh2
+Sep 17 15:45:07 file01 sshd[192321]: Connection closed by authenticating user operator 203.0.113.50 port 58124 [preauth]
+Sep 17 15:45:07 file01 sshd[192321]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:07 file01 sshd[192319]: Connection closed by authenticating user operator 203.0.113.50 port 58120 [preauth]
+Sep 17 15:45:07 file01 sshd[192319]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator
+Sep 17 15:45:07 file01 sshd[192322]: Connection closed by authenticating user operator 203.0.113.50 port 58118 [preauth]
+Sep 17 15:45:07 file01 sshd[192322]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50  user=operator

@@ -1,0 +1,309 @@
+Sep 20 00:09:01 file01 CRON[206534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 00:09:01 file01 CRON[206534]: pam_unix(cron:session): session closed for user root
+Sep 20 00:17:01 file01 CRON[206608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 00:17:01 file01 CRON[206608]: pam_unix(cron:session): session closed for user root
+Sep 20 00:35:01 file01 CRON[206617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 00:35:01 file01 CRON[206617]: pam_unix(cron:session): session closed for user root
+Sep 20 00:39:01 file01 CRON[206623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 00:39:01 file01 CRON[206623]: pam_unix(cron:session): session closed for user root
+Sep 20 01:09:01 file01 CRON[206707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 01:09:01 file01 CRON[206707]: pam_unix(cron:session): session closed for user root
+Sep 20 01:17:01 file01 CRON[207266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 01:17:01 file01 CRON[207266]: pam_unix(cron:session): session closed for user root
+Sep 20 01:27:10 file01 sshd[207294]: Accepted password for labuser from 192.168.100.3 port 57621 ssh2
+Sep 20 01:27:10 file01 sshd[207294]: pam_unix(sshd:session): session opened for user labuser by (uid=0)
+Sep 20 01:27:10 file01 systemd-logind[686]: New session 1883 of user labuser.
+Sep 20 01:27:10 file01 systemd: pam_unix(systemd-user:session): session opened for user labuser by (uid=0)
+Sep 20 01:39:01 file01 CRON[207459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 01:39:01 file01 CRON[207459]: pam_unix(cron:session): session closed for user root
+Sep 20 02:09:01 file01 CRON[207578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 02:09:01 file01 CRON[207578]: pam_unix(cron:session): session closed for user root
+Sep 20 02:17:01 file01 CRON[207651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 02:17:01 file01 CRON[207651]: pam_unix(cron:session): session closed for user root
+Sep 20 02:33:17 file01 sshd[207661]: Accepted password for operator from 203.0.113.50 port 42562 ssh2
+Sep 20 02:33:17 file01 sshd[207661]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 20 02:33:17 file01 systemd-logind[686]: New session 1888 of user operator.
+Sep 20 02:33:17 file01 systemd: pam_unix(systemd-user:session): session opened for user operator by (uid=0)
+Sep 20 02:33:18 file01 blackout-canary: INTRUSION DETECTED: weak-credential SSH login - user=operator from=203.0.113.50 service=sshd flag=BLACKOUT{s2_weak_creds_pwned}
+Sep 20 02:39:01 file01 CRON[207815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 02:39:01 file01 CRON[207815]: pam_unix(cron:session): session closed for user root
+Sep 20 03:09:01 file01 CRON[207960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 03:09:01 file01 CRON[207960]: pam_unix(cron:session): session closed for user root
+Sep 20 03:10:01 file01 CRON[208032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 03:10:01 file01 CRON[208032]: pam_unix(cron:session): session closed for user root
+Sep 20 03:17:01 file01 CRON[208051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 03:17:01 file01 CRON[208051]: pam_unix(cron:session): session closed for user root
+Sep 20 03:30:01 file01 CRON[208059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 03:30:01 file01 CRON[208059]: pam_unix(cron:session): session closed for user root
+Sep 20 03:39:01 file01 CRON[208066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 03:39:01 file01 CRON[208066]: pam_unix(cron:session): session closed for user root
+Sep 20 04:09:01 file01 CRON[208175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 04:09:01 file01 CRON[208175]: pam_unix(cron:session): session closed for user root
+Sep 20 04:17:01 file01 CRON[208251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 04:17:01 file01 CRON[208251]: pam_unix(cron:session): session closed for user root
+Sep 20 04:39:01 file01 CRON[208264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 04:39:01 file01 CRON[208264]: pam_unix(cron:session): session closed for user root
+Sep 20 05:09:01 file01 CRON[208349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 05:09:01 file01 CRON[208349]: pam_unix(cron:session): session closed for user root
+Sep 20 05:09:36 file01 sshd[207661]: pam_unix(sshd:session): session closed for user operator
+Sep 20 05:09:36 file01 systemd-logind[686]: Session 1888 logged out. Waiting for processes to exit.
+Sep 20 05:09:36 file01 systemd-logind[686]: Removed session 1888.
+Sep 20 05:17:01 file01 CRON[208468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 05:17:01 file01 CRON[208468]: pam_unix(cron:session): session closed for user root
+Sep 20 05:39:01 file01 CRON[208480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 05:39:01 file01 CRON[208480]: pam_unix(cron:session): session closed for user root
+Sep 20 06:09:01 file01 CRON[208603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 06:09:01 file01 CRON[208603]: pam_unix(cron:session): session closed for user root
+Sep 20 06:17:01 file01 CRON[208678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 06:17:01 file01 CRON[208678]: pam_unix(cron:session): session closed for user root
+Sep 20 06:25:01 file01 CRON[208686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 06:25:01 file01 CRON[208686]: pam_unix(cron:session): session closed for user root
+Sep 20 06:39:01 file01 CRON[208868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 06:39:01 file01 CRON[208868]: pam_unix(cron:session): session closed for user root
+Sep 20 06:47:01 file01 CRON[208946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 06:47:01 file01 CRON[208946]: pam_unix(cron:session): session closed for user root
+Sep 20 07:09:01 file01 CRON[208962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 07:09:01 file01 CRON[208962]: pam_unix(cron:session): session closed for user root
+Sep 20 07:17:01 file01 CRON[209035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 07:17:01 file01 CRON[209035]: pam_unix(cron:session): session closed for user root
+Sep 20 07:39:01 file01 CRON[209052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 07:39:01 file01 CRON[209052]: pam_unix(cron:session): session closed for user root
+Sep 20 08:09:01 file01 CRON[209172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 08:09:01 file01 CRON[209172]: pam_unix(cron:session): session closed for user root
+Sep 20 08:16:40 file01 adcli: GSSAPI client step 1
+Sep 20 08:16:40 file01 adcli: message repeated 2 times: [ GSSAPI client step 1]
+Sep 20 08:17:01 file01 CRON[209246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 08:17:01 file01 CRON[209246]: pam_unix(cron:session): session closed for user root
+Sep 20 08:39:01 file01 CRON[209257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 08:39:01 file01 CRON[209257]: pam_unix(cron:session): session closed for user root
+Sep 20 09:09:01 file01 CRON[209341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 09:09:01 file01 CRON[209341]: pam_unix(cron:session): session closed for user root
+Sep 20 09:17:01 file01 CRON[209416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 09:17:01 file01 CRON[209416]: pam_unix(cron:session): session closed for user root
+Sep 20 09:39:01 file01 CRON[209503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 09:39:01 file01 CRON[209503]: pam_unix(cron:session): session closed for user root
+Sep 20 10:09:01 file01 CRON[209656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 10:09:01 file01 CRON[209656]: pam_unix(cron:session): session closed for user root
+Sep 20 10:17:01 file01 CRON[209660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 10:17:01 file01 CRON[209660]: pam_unix(cron:session): session closed for user root
+Sep 20 10:39:01 file01 CRON[209672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 10:39:01 file01 CRON[209672]: pam_unix(cron:session): session closed for user root
+Sep 20 11:09:01 file01 CRON[209759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 11:09:01 file01 CRON[209759]: pam_unix(cron:session): session closed for user root
+Sep 20 11:17:01 file01 CRON[209833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 11:17:01 file01 CRON[209833]: pam_unix(cron:session): session closed for user root
+Sep 20 11:39:01 file01 CRON[209849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 11:39:01 file01 CRON[209849]: pam_unix(cron:session): session closed for user root
+Sep 20 12:09:01 file01 CRON[209933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 12:09:01 file01 CRON[209933]: pam_unix(cron:session): session closed for user root
+Sep 20 12:17:01 file01 CRON[210008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 12:17:01 file01 CRON[210008]: pam_unix(cron:session): session closed for user root
+Sep 20 12:39:01 file01 CRON[210044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 12:39:01 file01 CRON[210044]: pam_unix(cron:session): session closed for user root
+Sep 20 13:09:01 file01 CRON[210126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 13:09:02 file01 CRON[210126]: pam_unix(cron:session): session closed for user root
+Sep 20 13:17:02 file01 CRON[210202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 13:17:02 file01 CRON[210202]: pam_unix(cron:session): session closed for user root
+Sep 20 13:39:01 file01 CRON[210215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 13:39:01 file01 CRON[210215]: pam_unix(cron:session): session closed for user root
+Sep 20 14:09:01 file01 CRON[210296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 14:09:01 file01 CRON[210296]: pam_unix(cron:session): session closed for user root
+Sep 20 14:17:01 file01 CRON[210370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 14:17:01 file01 CRON[210370]: pam_unix(cron:session): session closed for user root
+Sep 20 14:39:01 file01 CRON[210381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 14:39:01 file01 CRON[210381]: pam_unix(cron:session): session closed for user root
+Sep 20 15:07:29 file01 sshd[210460]: Accepted password for labuser from 192.168.100.3 port 51104 ssh2
+Sep 20 15:07:29 file01 sshd[210460]: pam_unix(sshd:session): session opened for user labuser by (uid=0)
+Sep 20 15:07:29 file01 systemd-logind[686]: New session 1931 of user labuser.
+Sep 20 15:09:01 file01 CRON[210610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 15:09:01 file01 CRON[210610]: pam_unix(cron:session): session closed for user root
+Sep 20 15:10:50 file01 sshd[210460]: pam_unix(sshd:session): session closed for user labuser
+Sep 20 15:10:50 file01 systemd-logind[686]: Session 1931 logged out. Waiting for processes to exit.
+Sep 20 15:10:50 file01 systemd-logind[686]: Removed session 1931.
+Sep 20 15:15:33 file01 sshd[210705]: Accepted password for operator from 203.0.113.50 port 52578 ssh2
+Sep 20 15:15:33 file01 sshd[210705]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 20 15:15:33 file01 systemd-logind[686]: New session 1933 of user operator.
+Sep 20 15:15:33 file01 systemd: pam_unix(systemd-user:session): session opened for user operator by (uid=0)
+Sep 20 15:15:34 file01 blackout-canary: INTRUSION DETECTED: weak-credential SSH login - user=operator from=203.0.113.50 service=sshd flag=BLACKOUT{s2_weak_creds_pwned}
+Sep 20 15:17:01 file01 CRON[210814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 15:17:01 file01 CRON[210814]: pam_unix(cron:session): session closed for user root
+Sep 20 15:36:30 file01 sshd[210827]: Accepted password for labuser from 192.168.100.3 port 57672 ssh2
+Sep 20 15:36:30 file01 sshd[210827]: pam_unix(sshd:session): session opened for user labuser by (uid=0)
+Sep 20 15:36:30 file01 systemd-logind[686]: New session 1936 of user labuser.
+Sep 20 15:38:15 file01 sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/sbin/tcpdump -i eth0 -w /tmp/smb_exploit.pcap host 10.1.0.100
+Sep 20 15:38:15 file01 sudo: pam_unix(sudo:session): session opened for user root by labuser(uid=0)
+Sep 20 15:38:15 file01 sudo: pam_unix(sudo:session): session closed for user root
+Sep 20 15:38:49 file01 sudo:  labuser : TTY=pts/0 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/sbin/tcpdump -i ens18 -w /tmp/smb_exploit.pcap host 10.1.0.100
+Sep 20 15:38:49 file01 sudo: pam_unix(sudo:session): session opened for user root by labuser(uid=0)
+Sep 20 15:39:01 file01 CRON[210982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 15:39:01 file01 CRON[210982]: pam_unix(cron:session): session closed for user root
+Sep 20 15:41:52 file01 sudo: pam_unix(sudo:session): session closed for user root
+Sep 20 16:09:01 file01 CRON[211084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 16:09:01 file01 CRON[211084]: pam_unix(cron:session): session closed for user root
+Sep 20 16:17:01 file01 CRON[211157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 16:17:01 file01 CRON[211157]: pam_unix(cron:session): session closed for user root
+Sep 20 16:39:01 file01 CRON[211171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 16:39:01 file01 CRON[211171]: pam_unix(cron:session): session closed for user root
+Sep 20 17:09:01 file01 CRON[211253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 17:09:01 file01 CRON[211253]: pam_unix(cron:session): session closed for user root
+Sep 20 17:17:01 file01 CRON[211330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 17:17:01 file01 CRON[211330]: pam_unix(cron:session): session closed for user root
+Sep 20 17:39:01 file01 CRON[211343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 17:39:01 file01 CRON[211343]: pam_unix(cron:session): session closed for user root
+Sep 20 17:52:00 file01 sshd[210705]: pam_unix(sshd:session): session closed for user operator
+Sep 20 17:52:00 file01 systemd-logind[686]: Session 1933 logged out. Waiting for processes to exit.
+Sep 20 17:52:00 file01 systemd-logind[686]: Removed session 1933.
+Sep 20 18:09:01 file01 CRON[211479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 18:09:01 file01 CRON[211479]: pam_unix(cron:session): session closed for user root
+Sep 20 18:17:01 file01 CRON[211553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 18:17:01 file01 CRON[211553]: pam_unix(cron:session): session closed for user root
+Sep 20 18:39:01 file01 CRON[211567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 18:39:01 file01 CRON[211567]: pam_unix(cron:session): session closed for user root
+Sep 20 19:09:01 file01 CRON[211650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 19:09:01 file01 CRON[211650]: pam_unix(cron:session): session closed for user root
+Sep 20 19:17:01 file01 CRON[211727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 19:17:01 file01 CRON[211727]: pam_unix(cron:session): session closed for user root
+Sep 20 19:39:01 file01 CRON[211741]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 19:39:01 file01 CRON[211741]: pam_unix(cron:session): session closed for user root
+Sep 20 20:09:01 file01 CRON[211880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 20:09:01 file01 CRON[211880]: pam_unix(cron:session): session closed for user root
+Sep 20 20:17:01 file01 CRON[211956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 20:17:01 file01 CRON[211956]: pam_unix(cron:session): session closed for user root
+Sep 20 20:39:01 file01 CRON[211969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 20:39:01 file01 CRON[211969]: pam_unix(cron:session): session closed for user root
+Sep 20 21:09:01 file01 CRON[212056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 21:09:01 file01 CRON[212056]: pam_unix(cron:session): session closed for user root
+Sep 20 21:17:01 file01 CRON[212130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 21:17:01 file01 CRON[212130]: pam_unix(cron:session): session closed for user root
+Sep 20 21:39:01 file01 CRON[212141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 21:39:01 file01 CRON[212141]: pam_unix(cron:session): session closed for user root
+Sep 20 22:09:01 file01 CRON[212227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 22:09:01 file01 CRON[212227]: pam_unix(cron:session): session closed for user root
+Sep 20 22:17:01 file01 CRON[212302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 22:17:01 file01 CRON[212302]: pam_unix(cron:session): session closed for user root
+Sep 20 22:39:01 file01 CRON[212315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 22:39:01 file01 CRON[212315]: pam_unix(cron:session): session closed for user root
+Sep 20 23:09:01 file01 CRON[212400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 23:09:01 file01 CRON[212400]: pam_unix(cron:session): session closed for user root
+Sep 20 23:17:01 file01 CRON[212474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 23:17:01 file01 CRON[212474]: pam_unix(cron:session): session closed for user root
+Sep 20 23:39:01 file01 CRON[212486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 20 23:39:01 file01 CRON[212486]: pam_unix(cron:session): session closed for user root
+Sep 21 00:09:01 file01 CRON[212640]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 00:09:01 file01 CRON[212640]: pam_unix(cron:session): session closed for user root
+Sep 21 00:17:01 file01 CRON[212715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 00:17:01 file01 CRON[212715]: pam_unix(cron:session): session closed for user root
+Sep 21 00:35:01 file01 CRON[212724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 00:35:01 file01 CRON[212724]: pam_unix(cron:session): session closed for user root
+Sep 21 00:39:01 file01 CRON[212730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 00:39:01 file01 CRON[212730]: pam_unix(cron:session): session closed for user root
+Sep 21 01:09:01 file01 CRON[212812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 01:09:01 file01 CRON[212812]: pam_unix(cron:session): session closed for user root
+Sep 21 01:17:01 file01 CRON[212888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 01:17:01 file01 CRON[212888]: pam_unix(cron:session): session closed for user root
+Sep 21 01:39:01 file01 CRON[212902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 01:39:01 file01 CRON[212902]: pam_unix(cron:session): session closed for user root
+Sep 21 02:09:01 file01 CRON[213025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 02:09:01 file01 CRON[213025]: pam_unix(cron:session): session closed for user root
+Sep 21 02:17:01 file01 CRON[213099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 02:17:01 file01 CRON[213099]: pam_unix(cron:session): session closed for user root
+Sep 21 02:39:01 file01 CRON[213111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 02:39:01 file01 CRON[213111]: pam_unix(cron:session): session closed for user root
+Sep 21 03:09:01 file01 CRON[213193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 03:09:01 file01 CRON[213193]: pam_unix(cron:session): session closed for user root
+Sep 21 03:10:01 file01 CRON[213265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 03:10:01 file01 CRON[213265]: pam_unix(cron:session): session closed for user root
+Sep 21 03:17:01 file01 CRON[213271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 03:17:01 file01 CRON[213271]: pam_unix(cron:session): session closed for user root
+Sep 21 03:39:01 file01 CRON[213283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 03:39:01 file01 CRON[213283]: pam_unix(cron:session): session closed for user root
+Sep 21 04:09:01 file01 CRON[213924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 04:09:01 file01 CRON[213924]: pam_unix(cron:session): session closed for user root
+Sep 21 04:17:01 file01 CRON[213998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 04:17:01 file01 CRON[213998]: pam_unix(cron:session): session closed for user root
+Sep 21 04:39:01 file01 CRON[214010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 04:39:01 file01 CRON[214010]: pam_unix(cron:session): session closed for user root
+Sep 21 05:09:01 file01 CRON[214094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 05:09:01 file01 CRON[214094]: pam_unix(cron:session): session closed for user root
+Sep 21 05:17:01 file01 CRON[214168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 05:17:01 file01 CRON[214168]: pam_unix(cron:session): session closed for user root
+Sep 21 05:39:01 file01 CRON[214240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 05:39:01 file01 CRON[214240]: pam_unix(cron:session): session closed for user root
+Sep 21 06:09:01 file01 CRON[214322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 06:09:01 file01 CRON[214322]: pam_unix(cron:session): session closed for user root
+Sep 21 06:17:01 file01 CRON[214399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 06:17:01 file01 CRON[214399]: pam_unix(cron:session): session closed for user root
+Sep 21 06:25:01 file01 CRON[214406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 06:25:01 file01 CRON[214406]: pam_unix(cron:session): session closed for user root
+Sep 21 06:39:01 file01 CRON[214586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 06:39:01 file01 CRON[214586]: pam_unix(cron:session): session closed for user root
+Sep 21 07:09:01 file01 CRON[214668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 07:09:01 file01 CRON[214668]: pam_unix(cron:session): session closed for user root
+Sep 21 07:17:01 file01 CRON[214745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 07:17:01 file01 CRON[214745]: pam_unix(cron:session): session closed for user root
+Sep 21 07:39:01 file01 CRON[214758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 07:39:01 file01 CRON[214758]: pam_unix(cron:session): session closed for user root
+Sep 21 08:09:01 file01 CRON[214851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 08:09:01 file01 CRON[214851]: pam_unix(cron:session): session closed for user root
+Sep 21 08:16:40 file01 adcli: GSSAPI client step 1
+Sep 21 08:16:40 file01 adcli: message repeated 2 times: [ GSSAPI client step 1]
+Sep 21 08:17:01 file01 CRON[214927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 08:17:01 file01 CRON[214927]: pam_unix(cron:session): session closed for user root
+Sep 21 08:39:01 file01 CRON[214942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 08:39:01 file01 CRON[214942]: pam_unix(cron:session): session closed for user root
+Sep 21 09:09:01 file01 CRON[215064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 09:09:01 file01 CRON[215064]: pam_unix(cron:session): session closed for user root
+Sep 21 09:17:01 file01 CRON[215139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 09:17:01 file01 CRON[215139]: pam_unix(cron:session): session closed for user root
+Sep 21 09:39:01 file01 CRON[215152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 09:39:01 file01 CRON[215152]: pam_unix(cron:session): session closed for user root
+Sep 21 10:09:01 file01 CRON[215236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 10:09:01 file01 CRON[215236]: pam_unix(cron:session): session closed for user root
+Sep 21 10:17:01 file01 CRON[215309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 10:17:01 file01 CRON[215309]: pam_unix(cron:session): session closed for user root
+Sep 21 10:39:01 file01 CRON[215393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 10:39:01 file01 CRON[215393]: pam_unix(cron:session): session closed for user root
+Sep 21 11:09:01 file01 CRON[215504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 11:09:01 file01 CRON[215504]: pam_unix(cron:session): session closed for user root
+Sep 21 11:17:01 file01 CRON[215579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 11:17:01 file01 CRON[215579]: pam_unix(cron:session): session closed for user root
+Sep 21 11:39:01 file01 CRON[215592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 11:39:01 file01 CRON[215592]: pam_unix(cron:session): session closed for user root
+Sep 21 12:09:01 file01 CRON[215674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 12:09:01 file01 CRON[215674]: pam_unix(cron:session): session closed for user root
+Sep 21 12:17:01 file01 CRON[215750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 12:17:01 file01 CRON[215750]: pam_unix(cron:session): session closed for user root
+Sep 21 12:39:01 file01 CRON[215785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 12:39:01 file01 CRON[215785]: pam_unix(cron:session): session closed for user root
+Sep 21 13:09:01 file01 CRON[215870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 13:09:01 file01 CRON[215870]: pam_unix(cron:session): session closed for user root
+Sep 21 13:17:01 file01 CRON[215947]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 13:17:01 file01 CRON[215947]: pam_unix(cron:session): session closed for user root
+Sep 21 13:39:01 file01 CRON[215959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 13:39:01 file01 CRON[215959]: pam_unix(cron:session): session closed for user root
+Sep 21 14:09:01 file01 CRON[216042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 14:09:01 file01 CRON[216042]: pam_unix(cron:session): session closed for user root
+Sep 21 14:17:01 file01 CRON[216117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 14:17:01 file01 CRON[216117]: pam_unix(cron:session): session closed for user root
+Sep 21 14:39:01 file01 CRON[216127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 14:39:01 file01 CRON[216127]: pam_unix(cron:session): session closed for user root
+Sep 21 15:09:01 file01 CRON[216213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 15:09:01 file01 CRON[216213]: pam_unix(cron:session): session closed for user root
+Sep 21 15:17:01 file01 CRON[216288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 15:17:01 file01 CRON[216288]: pam_unix(cron:session): session closed for user root
+Sep 21 15:39:01 file01 CRON[216300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 15:39:01 file01 CRON[216300]: pam_unix(cron:session): session closed for user root
+Sep 21 16:09:01 file01 CRON[216384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 16:09:01 file01 CRON[216384]: pam_unix(cron:session): session closed for user root
+Sep 21 16:17:01 file01 CRON[216461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 16:17:01 file01 CRON[216461]: pam_unix(cron:session): session closed for user root
+Sep 21 16:39:01 file01 CRON[216473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 16:39:01 file01 CRON[216473]: pam_unix(cron:session): session closed for user root
+Sep 21 17:09:01 file01 CRON[216558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 17:09:01 file01 CRON[216558]: pam_unix(cron:session): session closed for user root
+Sep 21 17:17:01 file01 CRON[216634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 17:17:01 file01 CRON[216634]: pam_unix(cron:session): session closed for user root
+Sep 21 17:39:01 file01 CRON[216646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 17:39:01 file01 CRON[216646]: pam_unix(cron:session): session closed for user root
+Sep 21 18:09:01 file01 CRON[216730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 21 18:09:01 file01 CRON[216730]: pam_unix(cron:session): session closed for user root

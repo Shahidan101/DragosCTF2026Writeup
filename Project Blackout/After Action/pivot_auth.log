@@ -1,0 +1,16 @@
+Sep 13 23:59:02 pivot-host sshd[3201]: Failed password for invalid user admin from 185.220.101.47 port 43218 ssh2
+Sep 13 23:59:02 pivot-host sshd[3201]: Failed password for invalid user admin from 185.220.101.47 port 43219 ssh2
+Sep 13 23:59:03 pivot-host sshd[3201]: Connection closed by invalid user admin 185.220.101.47 port 43220 [preauth]
+Sep 14 01:44:01 pivot-host sshd[3312]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 14 01:44:01 pivot-host sshd[3312]: Accepted publickey for operator from 10.2.0.100 port 48201 ssh2: RSA SHA256:gE5hJpW3mXrTkNvLbQcYsFu2aDnZ0oPqRiCsTeMA4Yw
+Sep 14 01:44:15 pivot-host sshd[3312]: pam_unix(sshd:session): session closed for user operator
+Sep 14 02:12:05 pivot-host sshd[3847]: Accepted publickey for operator from 203.0.113.50 port 61024 ssh2: RSA SHA256:xK9mN4rQvBpL2tWsU7cFgYhJ1eDnX8aZkPqROiMsTeA
+Sep 14 02:12:05 pivot-host sshd[3847]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 14 02:16:53 pivot-host sshd[3847]: pam_unix(sshd:session): session closed for user operator
+Sep 14 02:16:53 pivot-host sshd[3847]: Disconnected from user operator 203.0.113.50 port 61024
+Sep 14 08:22:13 pivot-host sshd[4102]: Failed password for invalid user root from 92.119.160.44 port 11382 ssh2
+Sep 14 08:22:14 pivot-host sshd[4102]: Connection closed by invalid user root 92.119.160.44 port 11382 [preauth]
+Sep 16 03:41:11 pivot-host sshd[5503]: Accepted publickey for operator from 203.0.113.50 port 62817 ssh2: RSA SHA256:xK9mN4rQvBpL2tWsU7cFgYhJ1eDnX8aZkPqROiMsTeA
+Sep 16 03:41:11 pivot-host sshd[5503]: pam_unix(sshd:session): session opened for user operator by (uid=0)
+Sep 16 03:51:58 pivot-host sshd[5503]: pam_unix(sshd:session): session closed for user operator
+Sep 16 03:51:58 pivot-host sshd[5503]: Disconnected from user operator 203.0.113.50 port 62817

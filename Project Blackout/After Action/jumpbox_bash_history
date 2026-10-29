@@ -1,0 +1,18 @@
+id
+whoami
+uname -a
+ip addr
+ip route
+cat /etc/hosts
+ping -c 3 10.3.0.254
+python3 -c "import pymodbus; print(pymodbus.__version__)"
+pip install pymodbus --break-system-packages
+echo "QkxBQ0tPVVR7NHR0NGNrX2NoNDFuX2MwbXBsM3QzfQ==" > /tmp/.blackout_op
+nano /tmp/stage11_attack.py
+chmod +x /tmp/stage11_attack.py
+sudo tcpdump -i eth0 'host 10.3.0.254 and tcp port 502' -w /tmp/5a740dc6-stage11_live.pcap < /dev/null > /dev/null 2>&1 &
+python3 /tmp/stage11_attack.py
+ls -la /tmp/5a740dc6-stage11_live.pcap
+sudo kill $(pgrep tcpdump)
+rm /tmp/stage11_attack.py
+history -c

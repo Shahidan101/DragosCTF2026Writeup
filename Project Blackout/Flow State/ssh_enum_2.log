@@ -1,0 +1,35 @@
+Script started on 2026-09-22 22:49:51+0000
+admin@jumpbox-dmz:~$ sudo ss -tlnp
+State  Recv-Q Send-Q   Local Address:Port   Peer Address:Port Process
+LISTEN 0      4096     127.0.0.53%lo:53          0.0.0.0:*   users:(("systemd-resolve",pid=668,fd=14))
+LISTEN 0      128            0.0.0.0:22          0.0.0.0:*   users:(("sshd",pid=58332,fd=3))
+LISTEN 0      511            0.0.0.0:1880        0.0.0.0:*   users:(("node",pid=77983,fd=13))
+LISTEN 0      128               [::]:22             [::]:*   users:(("sshd",pid=58332,fd=4))
+LISTEN 0      4096                 *:3000              *:*   users:(("grafana",pid=62543,fd=9))
+admin@jumpbox-dmz:~$ ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3 171572 12988 ?        Ss   Aug26   0:21 /lib/systemd/systemd --system --deserialize 21
+root         668  0.0  0.0  81824  3448 ?        Ssl  Aug26   0:36 /usr/sbin/rsyslogd -n -iNONE
+root         680  0.0  0.1  17404  6720 ?        Ss   Aug26   0:02 /lib/systemd/systemd-logind
+root         682  0.0  0.3 395540 12132 ?        Ssl  Aug26   0:01 /usr/sbin/NetworkManager --no-daemon
+syslog     29384  0.0  0.1 224344  4320 ?        Ssl  Aug26   0:01 /usr/sbin/rsyslogd -n
+root       58332  0.0  0.1  40876  5352 ?        Ss   Aug26   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root       58502  0.0  0.5  85896 24000 ?        Ss   Aug26   0:02 /usr/sbin/apache2 -k start
+root       58520  0.0  0.6 107512 27904 ?        S    Aug26   0:14 /usr/sbin/apache2 -k start
+root       58521  0.0  0.8 109572 33004 ?        S    Aug26   0:09 /usr/sbin/apache2 -k start
+root       58522  0.0  0.5  85044 22924 ?        S    Aug26   0:09 /usr/sbin/apache2 -k start
+grafana    62543  0.6  9.1 2365388 365804 ?      Ssl  Aug26 270:48 /usr/sbin/grafana-server --config=/etc/grafana/grafana.ini --pidfile=/run/grafana/grafana-server.pid cfg:default.paths.logs=/var/log/grafana cfg:default.paths.data=/var/lib/grafana cfg:default.paths.plugins=/var/lib/grafana/plugins cfg:default.paths.provisioning=/etc/grafana/provisioning
+root       77983  0.0  4.9 11975620 200948 ?     Ssl  Aug26  36:51 node /usr/lib/node_modules/node-red/red.js --settings /etc/node-red/settings.js
+root       79408  0.0  0.2 249536  9560 ?        Ssl  Aug26   0:00 /usr/sbin/chronyd -F 2
+root      122498  0.0  0.2  24384  9836 ?        Ss   18:49   0:00 sshd: admin [priv]
+admin     122518  0.0  0.2  19168  9796 ?        Ss   18:50   0:00 /lib/systemd/systemd --user
+admin     122604  0.0  0.1  24520  6376 ?        R    18:50   0:00 sshd: admin@pts/1
+admin     122605  0.0  0.1   8276  5252 pts/1    Ss   18:50   0:00 -bash
+admin     122621  0.0  0.0   8888  3464 pts/1    R+   18:51   0:00 ps aux
+admin@jumpbox-dmz:~$ curl -s http://localhost:1880/flows -o nodered_flows.json
+admin@jumpbox-dmz:~$ wc -c nodered_flows.json
+48291 nodered_flows.json
+admin@jumpbox-dmz:~$ exit
+logout
+
+Script done on 2026-09-22 22:51:47+0000

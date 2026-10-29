@@ -1,0 +1,8 @@
+Sep 14 02:12:32 jump-box sshd[2244]: Accepted publickey for labuser from 203.0.113.46 port 54312 ssh2: RSA SHA256:xK9mN4rQvBpL2tWsU7cFgYhJ1eDnX8aZkPqROiMsTeA
+Sep 14 02:12:32 jump-box sshd[2244]: pam_unix(sshd:session): session opened for user labuser by (uid=0)
+Sep 14 02:16:49 jump-box sshd[2244]: pam_unix(sshd:session): session closed for user labuser
+Sep 14 02:16:49 jump-box sshd[2244]: Disconnected from user labuser 203.0.113.46 port 54312
+Sep 16 03:41:27 jump-box sshd[3819]: Accepted publickey for labuser from 203.0.113.46 port 47108 ssh2: RSA SHA256:xK9mN4rQvBpL2tWsU7cFgYhJ1eDnX8aZkPqROiMsTeA
+Sep 16 03:41:27 jump-box sshd[3819]: pam_unix(sshd:session): session opened for user labuser by (uid=0)
+Sep 16 03:51:44 jump-box sshd[3819]: Received signal 15; terminating.
+Sep 16 03:51:44 jump-box sshd[3819]: pam_unix(sshd:session): session closed for user labuser
