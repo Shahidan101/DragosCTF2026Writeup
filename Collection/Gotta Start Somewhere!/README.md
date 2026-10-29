@@ -2,8 +2,8 @@
 
 ## Challenge
 
-![Challenge Description1](gottastartsomewhere1.png)
-![Challenge Description2](gottastartsomewhere2.png)
+![Challenge Description1](assets/gottastartsomewhere1.png)
+![Challenge Description2](assets/gottastartsomewhere2.png)
 <!-- Remember to change the image path if you stored it elsewhere (e.g., ../../assets/challenge.png) -->
 
 ## Solution
