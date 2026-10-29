@@ -1,4 +1,4 @@
-# Challenge Name: Let's Exfil All the Data
+# Challenge Name: Nice Mix-Tape
 
 ## Challenge
 
