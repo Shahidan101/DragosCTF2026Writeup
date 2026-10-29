@@ -1,5 +1,4 @@
-# Challenge Name: Let's Exfil All the Data
-
+# Challenge Name: Peak Behind the Curtain
 ## Challenge
 
 ![Challenge Description](assets/challenge1.png)
